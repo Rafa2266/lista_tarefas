@@ -26,7 +26,7 @@ export default function Home(){
         navigate('/admin', { replace: true } )
       })
       .catch(() => {
-        alert("Usuário não encontrado!!!")
+        alert("Email ou senha estão incorretos!!")
       })
 
     }else{
